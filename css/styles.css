@@ -53,8 +53,6 @@ th,
 td {
   padding: 15px !important;
   vertical-align: middle !important;
-  text-justify: inter-word !important;
-  text-align: justify;
 }
 
 td img {
