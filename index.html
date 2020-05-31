@@ -511,29 +511,40 @@
 
       <div id="Contact">
         <h1 class="FredokaOne">Contact</h1>
-        <div class="links">
+        <div class="links" style="text-align: center;">
           <a href="mailto:nicholas.cervania1@ucalgary.ca"
-            ><img src="images/email.png" height="80px"
+            ><img src="images/email.png" height="60px"
           /></a>
           <a href="https://www.linkedin.com/in/nicholas-cervania-6b2106184/"
-            ><img src="images/linkedin.png" height="80px"
+            ><img src="images/linkedin.png" height="60px"
           /></a>
           <a href="https://github.com/nicholasc120"
-            ><img src="images/githubLogo.svg" height="80px"
+            ><img src="images/githubLogo.svg" height="60px"
           /></a>
         </div>
-        <form action="https://formspree.io/moqkegye" method="POST">
-          <label>
-            Your email:<br />
-            <input type="text" name="_replyto" />
-          </label>
-          <br />
-          <label>
-            Your message:<br />
-            <textarea name="message"></textarea>
-          </label>
-          <button type="submit">Send</button>
-        </form>
+        <div>
+          <h2 style="padding-left: 480px;">Send an email:</h2>
+          <form
+            action="https://formspree.io/moqkegye"
+            method="POST"
+            style="text-align: center;"
+          >
+            <input
+              type="text"
+              name="_replyto"
+              placeholder="Your Email"
+              style="width: 50% !important;"
+            />
+            <br />
+            <textarea
+              name="message"
+              placeholder="Your message"
+              style="width: 50% !important; height: 200px;"
+            ></textarea
+            ><br />
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
       </div>
     </div>
   </body>

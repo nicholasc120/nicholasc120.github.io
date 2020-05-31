@@ -74,14 +74,6 @@ td img {
   width: 32%;
 }
 
-figure {
-  width: 33%;
-  float: left;
-  margin: 0;
-  text-align: center;
-  padding: 0;
-}
-
 /* Style the Image Used to Trigger the Modal */
 #hackathon,
 #ignitespeech,
