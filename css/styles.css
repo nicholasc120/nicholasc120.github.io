@@ -9,7 +9,6 @@ body {
   background: linear-gradient(#b3e6ff, #ffe6f7);
   background-color: #b3e6ff;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .navbarLink {
@@ -21,8 +20,21 @@ body {
   font-size: 28px !important;
 }
 
+.PTsans {
+  font-family: "PT Sans", sans-serif;
+}
 .FredokaOne {
   font-family: "Fredoka One", cursive;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.FredokaNormal {
+  font-family: "Fredoka One", cursive;
+}
+
+.PermanentMarker,
+h3 {
+  font-family: "Permanent Marker", cursive;
   text-shadow: 4px 4px 4px #aaa;
 }
 
@@ -32,13 +44,6 @@ body {
   margin-right: auto;
   text-align: justify;
   text-justify: inter-word;
-}
-
-.textbody img {
-  width: 40%;
-  height: auto;
-  padding-left: 20px;
-  padding-bottom: 20px;
 }
 
 table,
